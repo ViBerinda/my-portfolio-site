@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Services - Kelly Bootstrap Template</title>
+  <title>Portfolio Details - Kelly Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body class="services-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
@@ -51,7 +51,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="resume.html">Resume</a></li>
-          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -68,99 +68,76 @@
 
   <main class="main">
 
-    <!-- Services Section -->
-    <section id="services" class="services section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>These are the services that I provide during my work</p>
+        <h2>Circus performers | Puppeteer</h2>
+        <p>Classic suit and hat</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <div class="icon">
-                <img src="assets/icon/Sculpt.png" alt="Bootstrap" width="120" height="120">
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Sculpting</h3>
-              </a>
-              <p>I can create highly detailed sculpts where the emphasis is on quality</p>
-            </div>
-          </div><!-- End Service Item -->
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item item-orange position-relative">
-              <div class="icon">
-                <img src="assets/icon/Retopo.png" alt="Bootstrap" width="120" height="120">
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Retopology</h3>
-              </a>
-              <p>I can create a simplified mesh for a model, baking the sculpting into it, resulting in an optimized object with the preservation of details</p>
-            </div>
-          </div><!-- End Service Item -->
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item item-teal position-relative">
-              <div class="icon">
-                <img src="assets/icon/UV'.png" alt="Bootstrap" width="120" height="120">
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>UV editing</h3>
-              </a>
-              <p>I can unwrap the model observing the rules of their placement on UV tiles, using the space as much as possible for the benefit of future textures</p>
-            </div>
-          </div><!-- End Service Item -->
+              <div class="swiper-wrapper align-items-center">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item item-red position-relative">
-              <div class="icon">
-                <img src="assets/icon/Texture.png" alt="Bootstrap" width="120" height="120">
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Texturing</h3>
-              </a>
-              <p>I can create textures, both simple and combined, and I can also try myself in creating realistic textures</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/Clown girl base.jpg" alt="">
+                </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item item-indigo position-relative">
-              <div class="icon">
-                <img src="assets/icon/Render.png" alt="Bootstrap" width="120" height="120">
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Render</h3>
-              </a>
-              <p>I can render by building light and composition to my work</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/Clown girl.png" alt="">
+                </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item item-pink position-relative">
-              <div class="icon">
-                <img src="assets/icon/Modeling.png" alt="Bootstrap" width="120" height="120">
               </div>
-              <a href="#" class="stretched-link">
-                <h3>Modeling</h3>
-              </a>
-              <p>Besides characters I can model objects. Furniture, houses, clothes, objects, etc.</p>
-              <a href="#" class="stretched-link"></a>
+              <div class="swiper-pagination"></div>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <h>[You can switch images by dragging your mouse]</h>
+              <ul>
+                <li><strong>Faces</strong>: 39.737</li>
+                <li><strong>Project date</strong>: 07 November, 2023</li>
+                <li><strong>Project URL</strong>: <a href="#">https://www.artstation.com/artwork/WBVrZG</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Project Description</h2>
+              <p>
+                One of the first character works, it consists of textures with simple colors and materials.
+              </p>
+            </div>
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Services Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
